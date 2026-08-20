@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@nomicfoundation/edr-win32-x64-msvc':
+        specifier: 0.15.0
+        version: 0.15.0
       '@nomicfoundation/hardhat-ignition':
         specifier: ^3.1.8
         version: 3.1.8(@nomicfoundation/hardhat-verify@3.0.22(hardhat@3.13.0))(hardhat@3.13.0)
@@ -596,7 +599,7 @@ packages:
     engines: {node: '>=6.0.0'}
 
   forge-std@https://codeload.github.com/foundry-rs/forge-std/tar.gz/1eea5bae12ae557d589f9f0f0edae2faa47cb262:
-    resolution: {tarball: https://codeload.github.com/foundry-rs/forge-std/tar.gz/1eea5bae12ae557d589f9f0f0edae2faa47cb262}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/foundry-rs/forge-std/tar.gz/1eea5bae12ae557d589f9f0f0edae2faa47cb262}
     version: 1.9.4
 
   fsevents@2.3.3:
